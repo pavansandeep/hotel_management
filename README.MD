@@ -1,4 +1,4 @@
-# Project Title
+# Hotel Reservation System
 
 This is a room reservation system for hotels.
 
@@ -27,7 +27,7 @@ Installation examples that tell you have to get a development env running
 ```
 To seperate different projects and it's dependencies, I would recommend to use virtualenv.
 
-If the project requires a specific version of a package, let's say django==1.8, run the following command
+If the project requires a specific version of a package, let's say django==1.8.7, run the following command
 
 pip install Django==1.8.7
 
