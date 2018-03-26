@@ -56,7 +56,7 @@ python manage.py makemigrations
 
 To apply the migrations to the database, run the following command
 ```
-This will apply all the unapplied migrations in the project to the database
+This will apply all the unapplied migrations in the project to the database (Using in-memory sqlite database for purposes of development)
 
 python manage.py migrate
 
@@ -85,7 +85,7 @@ To access a specific reservation - /api/reservations/<id>
 ```
 
 ## Running the tests
-
+Django uses sqlite as it's default database, each test has a setup code and once the test it done, db is destroyed automatically after the tests have finished.
 
 ```
 To run all the unit tests, run the following command
